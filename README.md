@@ -28,7 +28,7 @@ pip3 install matplotlib
 pip3 install IPython
 pip3 install pydub
 ```
-Please note that, in the above requirements we intalled and tested on cupy library and torch-geometric library compbatible with CUDAv10.2. For different CUDA version, you can find the appropiate installation commands here.
+Please note that, in the above requirements we installed and tested on cupy library and torch-geometric library compatible with CUDAv10.2. For different CUDA versions, you can find the appropriate installation commands here.
 
 ```
 1) https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
@@ -41,6 +41,11 @@ Please note that, in the above requirements we intalled and tested on cupy libra
 To download the Listen2Scene dataset run the following command  
 ```
 source download_data.sh
+```
+ You also can directly download it from the following link
+ 
+```
+https://drive.google.com/uc?id=1FnBadVRQvtV9jMrCz_F-U_YwjvxkK8s0
 ```
 
 
