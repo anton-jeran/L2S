@@ -8,13 +8,13 @@ This is the official implementation of our end-to-end binaural audio rendering a
 ```
 Python3.8
 pip3 install numpy
-pip3 install torch
-pip3 install torchvision
+pip3 install torch==1.11.0+cu115 torchvision==0.12.0+cu115 torchaudio==0.11.0 --extra-index-url https://do
+wnload.pytorch.org/whl/cu115
 pip3 install python-dateutil
 pip3 install soundfile
 pip3 install pandas
 pip3 install scipy
-pip3 install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.10.0+cu102.html
+pip3 install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.11.0+cu115.html
 pip3 install librosa
 pip3 install easydict
 pip3 install cupy-cuda102
