@@ -49,3 +49,22 @@ https://drive.google.com/uc?id=1FnBadVRQvtV9jMrCz_F-U_YwjvxkK8s0
 ```
 
 
+## Evaluation
+
+Download the trained model, sample 3D indoor real environment meshes from [**ScanNet dataset**](https://github.com/ScanNet/ScanNet), and sample source-receiver paths files using the following command.
+
+```
+source download_files.sh
+```
+
+Generate embedding with different receiver and source locations for five different real 3D indoor scenes. For 5 different real indoor scenes, we have stored sample source-receiver locations in a CSV format inside the **Paths** folder. Columns 2-4 give the 3D cartesian coordinates of the source and receiver positions. Column 1 with negative values corresponds to source positions and Column 1 with non-negative values corresponds to listener positions. 
+
+```
+python3 embed_generator.py
+```
+
+Generate binaural IRs corresponding to each embedding file inside **Embeddings** folder using the following command.
+
+```
+python3 evaluate.py
+```
