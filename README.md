@@ -6,7 +6,7 @@ This is the official implementation of our end-to-end binaural audio rendering a
 ## Requirements
 
 ```
-Python3.6
+Python3.8
 pip3 install numpy
 pip3 install torch
 pip3 install torchvision
