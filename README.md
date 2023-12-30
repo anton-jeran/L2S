@@ -6,18 +6,17 @@ This is the official implementation of our end-to-end binaural audio rendering a
 ## Requirements
 
 ```
-Python3.8
+Python3.9.7
 pip3 install numpy
-pip3 install torch==1.11.0+cu115 torchvision==0.12.0+cu115 torchaudio==0.11.0 --extra-index-url https://do
-wnload.pytorch.org/whl/cu115
+pip3 install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 pip3 install python-dateutil
 pip3 install soundfile
 pip3 install pandas
 pip3 install scipy
-pip3 install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.11.0+cu115.html
+pip3 install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.13.0+cu117.html
 pip3 install librosa
 pip3 install easydict
-pip3 install cupy-cuda102
+pip3 install cupy-cuda11x
 pip3 install wavefile
 pip3 install torchfile
 pip3 install pyyaml==5.4.1
