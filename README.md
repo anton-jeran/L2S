@@ -27,6 +27,7 @@ pip3 install gdown
 pip3 install matplotlib
 pip3 install IPython
 pip3 install pydub
+torch-geometric==2.1.0
 ```
 Please note that, in the above requirements we installed and tested on cupy library and torch-geometric library compatible with CUDAv11.7. For different CUDA versions, you can find the appropriate installation commands here.
 
