@@ -28,7 +28,7 @@ pip3 install matplotlib
 pip3 install IPython
 pip3 install pydub
 ```
-Please note that, in the above requirements we installed and tested on cupy library and torch-geometric library compatible with CUDAv10.2. For different CUDA versions, you can find the appropriate installation commands here.
+Please note that, in the above requirements we installed and tested on cupy library and torch-geometric library compatible with CUDAv11.7. For different CUDA versions, you can find the appropriate installation commands here.
 
 ```
 1) https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
