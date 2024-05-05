@@ -27,7 +27,7 @@ pip3 install gdown
 pip3 install matplotlib
 pip3 install IPython
 pip3 install pydub
-torch-geometric==2.1.0
+pip3 install torch-geometric==2.1.0
 ```
 Please note that, in the above requirements we installed and tested on cupy library and torch-geometric library compatible with CUDAv11.7. For different CUDA versions, you can find the appropriate installation commands here.
 
@@ -36,6 +36,8 @@ Please note that, in the above requirements we installed and tested on cupy libr
 2) https://docs.cupy.dev/en/stable/install.html
 
 ```
+
+**Note** - If you have issues with loading the trained model, downgrade torch-geometric (**pip3 install torch-geometric==2.1.0**)
 
 ## Download Listen2Scene Dataset
 
